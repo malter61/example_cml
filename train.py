@@ -78,9 +78,9 @@ ax.set_ylabel('Predicted wine quality', fontsize = axis_fs)
 ax.set_title('Residuals', fontsize = title_fs)
 
 # Make it pretty- square aspect ratio
-ax.plot([1, 10]), [1, 10], 'black', linewidth = 1)
+ax.plot([1, 10], [1, 10], 'black', linewidth = 1)
 plt.ylim((2.5, 8.5))
 plt.xlim((2.5, 8.5))
 
-plt_tight_layout()
+plt.tight_layout()
 plt.savefig('residuals.png', dpi = 120)                                                                             
