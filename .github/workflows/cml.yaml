@@ -18,4 +18,3 @@ jobs:
           # Write your cml report
           echo 'MODEL METRICS'
           cat metrics.txt 
-          cml-send-comment report.md
