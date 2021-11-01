@@ -56,7 +56,7 @@ sns.set(style='whitegrid')
 
 ax = sns.barplot(x = 'importance', y = 'feature', data = feature_df)
 ax.set_xlabel('Importance', fontsize = axis_fs)
-ax.sey_ylabel('Feature', fontsize = axis_fs)
+ax.set_ylabel('Feature', fontsize = axis_fs)
 ax.set_title('Random Forest\nfeature importance', fontsize = title_fs)
 
 plt.tight_layout()
